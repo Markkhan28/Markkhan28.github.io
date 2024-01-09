@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <section>
+        <div>
+          <h1>Contact Us</h1>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/#aboutus">About LTS</a></li>
+            <li><a href="/#ourmenu">Our Menu</a></li>
+            <li><a href="/hours.html" target="_blank">Store hours</a></li>
+          </ul>
+          <img
+            src="/tacos_close_up_400x260.png"
+            alt="tacos close up"
+            width="267"
+          />
+          <p>Little Taco shop</p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div>
+        <h2>Our Contact Form</h2>
+        <form action="form.php" method="post">
+          <fieldset>
+            <legend>Send us a message:</legend>
+            <label for="idname">Name:</label>
+            <input
+              type="text"
+              name="idname"
+              id="idname"
+              placeholder="your name"
+            /><br />
+            <br />
+            <label for="idEmail">Email:</label>
+            <input
+              type="email"
+              name="idEmail"
+              id="idEmail"
+              placeholder="your email"
+              required
+            /><br />
+            <br />
+            <label for="idmessage">Your Message:</label><br />
+            <input
+              type="box"
+              name="idmessage"
+              id="idmessage"
+              placeholder="Type your message here"
+              size="100"
+              maxlength="250"
+              height="100"
+            /><br />
+          </fieldset>
+          <label for="idsend"
+            ><input type="button" name="idsend" id="idsend" value="Send"
+          /></label>
+          <label for="idreset"
+            ><input type="button" name="idreset" id="idreset" value="Reset"
+          /></label>
+        </form>
+        <br />
+      </div>
+
+      <div>
+        <h2>Our Location</h2>
+
+        <address>
+          74/78 Ellaiamman colony vellala teynampet Gopalapuram chennai-8000
+
+          <p>Phone: <a href="">555-555-5555</a></p>
+        </address>
+        <br />
+        <a href="#">Back to top</a>
+        <hr />
+        <p>Copyright &copy The Little Taco Shop</p>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
